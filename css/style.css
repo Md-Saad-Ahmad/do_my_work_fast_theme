@@ -3536,7 +3536,7 @@ textarea.form-control {
 }
 .item-hints .hint:hover .hint-content {
   /* border: 1px solid #ffffff; */
-  position: absolute;
+  /* position: absolute;
   z-index: 5;
   padding: 35px 0;
   opacity: 1;
@@ -3545,8 +3545,8 @@ textarea.form-control {
   color: #fff;
   visibility: visible;
   pointer-events: none;
-}
-.item-hints .hint-content::before {
+} */
+/* .item-hints .hint-content::before { */
   /* border: 1px solid #ee0000;  */
   /* width: 0px; */
   /* bottom: 29px; */
@@ -3555,14 +3555,14 @@ textarea.form-control {
   /* background-color: #fff; */
   /* height: 1px; */
   /* position: absolute; */
-  transition: width 0.4s;
-}
-.item-hints .hint:hover .hint-content::before {
+  /* transition: width 0.4s; */
+/* } */
+/* .item-hints .hint:hover .hint-content::before {
   width: 180px;
   transition: width 0.4s;
-}
+} */
 /* first line */
-.item-hints .hint-content::after {
+/* .item-hints .hint-content::after {
   -webkit-transform-origin: 0 50%;
   transform-origin: 0 50%;
   -webkit-transform: rotate(-225deg);
@@ -3588,7 +3588,7 @@ textarea.form-control {
   bottom: 80px;
   left: 50%;
   margin-left: 56px;
-}
+} */
 
 /* .questions{
   border: 1px solid #ff0000;
@@ -3600,7 +3600,70 @@ textarea.form-control {
 }
  */
 
- */
+ /* faq*/
 
+ .cardFaq {
+  width: 390px;
+  height: 254px;
+  background-color: #00acee;
+  padding: 15px;
+  transition: all 0.4s;
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705); */
+  font-size: 30px;
+  font-weight: 900;
+}
 
- 
+.cardFaq:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
+  background-color: #00acee;
+}
+
+.faq1-content {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.cardFaq:hover .faq1-content {
+  height: 0px;
+  opacity: 0;
+}
+
+.faq2-content {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
+
+.cardFaq:hover .faq2-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 1.8rem;
+  transform: rotate(0deg);
+}
+
+.text-set{
+  color: white;
+  font-size: 15px;
+  line-height: 20px;
+}
+.faq-head{
+  color: var(--white);
+  text-align: center;
+}
