@@ -3289,6 +3289,7 @@ textarea.form-control {
 
 
 .card {
+  font-family: "Nunito Sans", Arial, sans-serif;
   box-shadow: 1px 1px 10px rgb(57, 119, 255);
   width: 300px;
   height: 200px;
@@ -3317,24 +3318,24 @@ textarea.form-control {
 }
 
 .card-front {
-  background-color: #0D1128;
-  color: #ffffff;
+  background-color: #3ba0d9;
+  color: black;
   display: flex;
   align-items: center;
   /* border: 10px solid #1B9CE3; */
-  border-radius: 10px;
+  /* border-radius: 10px; */
   justify-content: center;
   font-size: 24px;
   transform: rotateY(0deg);
 }
 
 .card-back {
-  background-color: #dbdbdbfd;
+  background-color: #fffffffd;
   color: #007bff;
   flex-direction: column;
   display: flex;
   align-items: center;
-  border: 10px solid #dbdbdbfd;
+  /* border: 10px solid #dbdbdbfd; */
   border-radius: 10px;
   justify-content: center;
   font-size: 24px;
@@ -3344,14 +3345,26 @@ textarea.form-control {
 
 
 .card-contants{
-  font-family: Roboto Slab;
+  /* font-family: Roboto Slab; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 
+.services-2:hover{
+  background-color: #3ba0d9 !important;
+}
+
+.clrChng:hover{
+  background-color: #3ba0d9;
+  
+}
+
+.mainClrChng{
+  background-color: #3ba0d9 !important;
+}
 /* .img-back1{
   background-image: url(/do_my_work_fast_theme/images/commerce.png);
   background-size: 200px;
