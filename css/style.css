@@ -3352,7 +3352,7 @@ textarea.form-control {
   letter-spacing: 5px;
 }
 
-.img-back1{
+/* .img-back1{
   background-image: url(/do_my_work_fast_theme/images/commerce.png);
   background-size: 200px;
   background-repeat: no-repeat;
@@ -3381,7 +3381,7 @@ textarea.form-control {
 .img-back4{
   background-image: url(/do_my_work_fast_theme/images/acounts.png);
   background-size: 130px;
-  /* background-size: cover; */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   background-color: #0D1128;
@@ -3391,7 +3391,7 @@ textarea.form-control {
 .img-back5{
   background-image: url(/do_my_work_fast_theme/images/cs.png);
   background-size: 130px;
-  /* background-size: cover; */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   background-color: #0D1128;
@@ -3400,7 +3400,7 @@ textarea.form-control {
 .img-back6{
   background-image: url(/do_my_work_fast_theme/images/laws.png);
   background-size: 130px;
-  /* background-size: cover; */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   background-color: #0D1128;
@@ -3409,7 +3409,7 @@ textarea.form-control {
 .img-back7{
   background-image: url(/do_my_work_fast_theme/images/eng.png);
   background-size: 130px;
-  /* background-size: cover; */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   background-color: #0D1128;
@@ -3418,18 +3418,18 @@ textarea.form-control {
 .img-back8{
   background-image: url(/do_my_work_fast_theme/images/history.png);
   background-size: 130px;
-  /* background-size: cover; */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   background-color: #0D1128;
   align-items: end;
 }
 .img-back9{
-  background-image: url(/do_my_work_fast_theme/images/philo.png);
+  background-image: url(/do_my_work_fast_theme/images/philo.png); 
   background-size: 130px;
-  /* background-size: cover; */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-color: #0D1128;
+  background-color: #0D1128; 
   align-items: end;
-}
+}  */
