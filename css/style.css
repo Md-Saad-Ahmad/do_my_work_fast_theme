@@ -3605,7 +3605,7 @@ textarea.form-control {
  .cardFaq {
   width: 390px;
   height: 254px;
-  background-color: #00acee;
+  background-color: #3ba0d9 !important;
   padding: 15px;
   transition: all 0.4s;
   border-radius: 10px;
@@ -3619,7 +3619,7 @@ textarea.form-control {
   cursor: pointer;
   transform: scale(1.2);
   box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-  background-color: #00acee;
+  background-color: #3ba0d9 !important;
 }
 
 .faq1-content {
