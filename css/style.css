@@ -3289,6 +3289,8 @@ textarea.form-control {
 
 
 .card {
+  border-radius: 20px;
+  background-image: linear-gradient(163deg, #ffffff 0%, #3ba0d9 100%);
   font-family: "Nunito Sans", Arial, sans-serif;
   box-shadow: 5px 5px 10px rgb(76, 119, 214);
   width: 300px;
@@ -3318,7 +3320,9 @@ textarea.form-control {
 }
 
 .card-front {
-  background-color: #3ba0d9;
+  text-shadow: 0px 0px 10px rgb(0, 76, 95) ;
+  background-color: #62c2fa;
+  border-radius: 20px;
   color: black;
   display: flex;
   align-items: center;
@@ -3345,6 +3349,8 @@ textarea.form-control {
 
 
 .card-contants{
+  /* border: 1px solid #000; */
+  padding: 5px;
   /* font-family: Roboto Slab; */
   display: flex;
   justify-content: center;
@@ -3377,4 +3383,84 @@ textarea.form-control {
 }
 .btn-primary:hover{
   color: rgb(0, 0, 0) !important;
+  transform: rotateX(360deg);
+  animation: 0.99;
+  transition: 1s;
 }
+
+
+
+
+.cardFooter {
+  width: fit-content;
+  height: fit-content;
+  /* background-color: rgb(238, 238, 238); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 5px 15px; */
+  gap: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
