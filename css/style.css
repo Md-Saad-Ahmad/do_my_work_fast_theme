@@ -3268,7 +3268,7 @@ textarea.form-control {
   /* border: 1px solid #000; */
 }
 .height-change{
-  line-height: 43px;
+  line-height: 43px !important;
 }
 .hvr-chng{
   color: #000;
@@ -3290,7 +3290,7 @@ textarea.form-control {
 
 .card {
   font-family: "Nunito Sans", Arial, sans-serif;
-  box-shadow: 1px 1px 10px rgb(57, 119, 255);
+  box-shadow: 5px 5px 10px rgb(76, 119, 214);
   width: 300px;
   height: 200px;
   perspective: 1000px;
@@ -3358,7 +3358,7 @@ textarea.form-control {
 }
 
 .clrChng:hover{
-  background-color: #3ba0d9;
+  background-color: #3ba0d9 !important;
   
 }
 
@@ -3370,4 +3370,11 @@ textarea.form-control {
 }
 .meta-date{
   background-color: #3ba0d9 !important;
+}
+
+.changing-height{
+  height: 200px !important;
+}
+.btn-primary:hover{
+  color: rgb(0, 0, 0) !important;
 }
