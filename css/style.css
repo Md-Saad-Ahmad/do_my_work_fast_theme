@@ -3465,25 +3465,25 @@ textarea.form-control {
 }
 
 /* Faq ssection */
-.faq{
+/* .faq{
   background-color: #000;
   border: 1px solid #000;
 
-}
-.faqQuestion{
+} */
+/* .faqQuestion{
   font-size: 56px;
   font-weight: bold;
-}
-.item-hints {
+} */
+/* .item-hints {
   --purple: #720c8f;
-  cursor: pointer;
+  cursor: pointer; */
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
   /* flex-direction: row !important; */
   /* padding-right: 170px; */
-}
-.item-hints .hint {
+/* } */
+/* .item-hints .hint {
   margin: 150px auto;
   position: relative;
   display: flex;
@@ -3600,7 +3600,7 @@ textarea.form-control {
 }
  */
 
-
+ */
 
 
  
