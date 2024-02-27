@@ -3625,7 +3625,7 @@ textarea.form-control {
 .faq1-content {
   height: 100%;
   width: 100%;
-  transition: all 0.4s;
+  transition: all 0.7s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3646,7 +3646,7 @@ textarea.form-control {
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  transition: all 0.4s;
+  transition: all 0.7s;
   font-size: 0px;
   transform: rotate(90deg) scale(-1);
 }
@@ -3666,4 +3666,8 @@ textarea.form-control {
 .faq-head{
   color: var(--white);
   text-align: center;
+}
+.faqFix{
+  justify-content: center;
+  gap: 10px;
 }
