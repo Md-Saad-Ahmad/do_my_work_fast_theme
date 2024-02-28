@@ -1910,15 +1910,15 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .9;
-    background: #1566ad;
-    background: -moz-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, #1566ad), color-stop(100%, #1b9de3));
-    background: -webkit-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -o-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -ms-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#1566ad), to(#1b9de3));
-    background: linear-gradient(to right, #1566ad 0%, #1b9de3 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1566ad', endColorstr='#1b9de3', GradientType=1 ); }
+    background: #0d1128;
+    background: -moz-linear-gradient(left, #0d1128 0%, #0d1128 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #0d1128), color-stop(100%, #1b9de3));
+    background: -webkit-linear-gradient(left, #0d1128 0%, #1b9de3 100%);
+    background: -o-linear-gradient(left, #0d1128 0%, #1b9de3 100%);
+    background: -ms-linear-gradient(left, #0d1128 0%, #1b9de3 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#0d1128), to(#1b9de3));
+    background: linear-gradient(to right, #0d1128 0%, #1b9de3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1128', endColorstr='#1b9de3', GradientType=1 ); }
   .hero-wrap.hero-wrap-2 {
     height: 300px; }
     .hero-wrap.hero-wrap-2 .slider-text {
@@ -2231,7 +2231,7 @@ h1, h2, h3, h4, h5,
     font-weight: 700; }
   .services-2:hover {
     color: white;
-    background: #1b9ce3;
+    background: #1b9ce3; 
     -webkit-box-shadow: 0px 0px 27px -16px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 27px -16px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 27px -16px rgba(0, 0, 0, 0.75);
@@ -2788,16 +2788,16 @@ textarea.form-control {
     content: '';
     z-index: -1;
     opacity: .8;
-    background: #233e62;
-    background: #1566ad;
-    background: -moz-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, #1566ad), color-stop(100%, #1b9de3));
-    background: -webkit-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -o-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -ms-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#1566ad), to(#1b9de3));
-    background: linear-gradient(to right, #1566ad 0%, #1b9de3 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1566ad', endColorstr='#1b9de3', GradientType=1 ); }
+    background: #0d1128 !important;
+    background: #0d1128 !important;
+    background: -moz-linear-gradient(left, #0d1128 0%, #1b9de3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #0d1128), color-stop(100%, #1b9de3));
+    background: -webkit-linear-gradient(left, #0d1128 0%, #1b9de3 100%);
+    background: -o-linear-gradient(left, #0d1128 0%, #1b9de3 100%);
+    background: -ms-linear-gradient(left, #0d1128 0%, #1b9de3 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#0d1128), to(#1b9de3));
+    background: linear-gradient(to right, #0d1128 0%, #1b9de3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1128', endColorstr='#1b9de3', GradientType=1 ); }
   .ftco-intro .btn {
     width: 100%; }
   .ftco-intro h2 {
@@ -2878,15 +2878,15 @@ textarea.form-control {
     bottom: 0;
     content: '';
     opacity: .8;
-    background: #1566ad;
-    background: -moz-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, #1566ad), color-stop(100%, #1b9de3));
-    background: -webkit-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -o-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -ms-linear-gradient(left, #1566ad 0%, #1b9de3 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#1566ad), to(#1b9de3));
-    background: linear-gradient(to right, #1566ad 0%, #1b9de3 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1566ad', endColorstr='#1b9de3', GradientType=1 ); }
+    background: #0d1128;
+    background: -moz-linear-gradient(left, #0d1128 0%, #1b9de3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #0d1128), color-stop(100%, #1b9de3));
+    background: -webkit-linear-gradient(left, #0d1128 0%, #1b9de3 100%);
+    background: -o-linear-gradient(left, #0d1128 0%, #1b9de3 100%);
+    background: -ms-linear-gradient(left, #0d1128 0%, #1b9de3 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#0d1128), to(#1b9de3));
+    background: linear-gradient(to right, #0d1128 0%, #1b9de3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1128', endColorstr='#1b9de3', GradientType=1 ); }
 
 .appointment-form .form-group {
   position: relative;
@@ -3270,14 +3270,7 @@ textarea.form-control {
 .height-change{
   line-height: 43px !important;
 }
-.hvr-chng{
-  color: #000;
 
-}
-.hvr-chng:hover{
-  color: white;
-
-}
 /* .services-2{
   border: 1px solid #000;
   gap: 10px;
@@ -3290,7 +3283,7 @@ textarea.form-control {
 
 .card {
   border-radius: 20px;
-  background-image: linear-gradient(163deg, #ffffff 0%, #3ba0d9 100%);
+  background-image: linear-gradient(163deg, #ffffff 0%, #0d1128 100%);
   font-family: "Nunito Sans", Arial, sans-serif;
   box-shadow: 5px 5px 10px rgb(76, 119, 214);
   width: 300px;
@@ -3321,9 +3314,9 @@ textarea.form-control {
 
 .card-front {
   text-shadow: 0px 0px 10px rgb(0, 76, 95) ;
-  background-color: #62c2fa;
+  background-color: #0d1128;
   border-radius: 20px;
-  color: black;
+  color: white;
   display: flex;
   align-items: center;
   /* border: 10px solid #1B9CE3; */
@@ -3335,7 +3328,7 @@ textarea.form-control {
 
 .card-back {
   background-color: #fffffffd;
-  color: #007bff;
+  color: #0d1128;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -3360,29 +3353,30 @@ textarea.form-control {
 }
 
 .services-2:hover{
-  background-color: #3ba0d9 !important;
+  background-color: #0d1128 !important;
 }
 
 .clrChng:hover{
-  background-color: #3ba0d9 !important;
+  background-color: #0d1128 !important;
   
 }
 
 .mainClrChng{
-  background-color: #3ba0d9 !important;
+  background-color: #0d1128 !important;
 }
 .btn-primary{
-  background-color: #3ba0d9 !important;
+  background-color: #0d1128 !important;
+  color: white !important;
 }
 .meta-date{
-  background-color: #3ba0d9 !important;
+  background-color: #0d1128 !important;
 }
 
 .changing-height{
   height: 200px !important;
 }
 .btn-primary:hover{
-  color: rgb(0, 0, 0) !important;
+  color: rgb(255, 255, 255) !important;
   transform: rotateX(360deg);
   animation: 0.99;
   transition: 1s;
@@ -3605,21 +3599,21 @@ textarea.form-control {
  .cardFaq {
   width: 390px;
   height: 254px;
-  background-color: #3ba0d9 !important;
+  background-color: #0d1128 !important;
   padding: 15px;
   transition: all 0.4s;
   border-radius: 10px;
   /* box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705); */
-  font-size: 30px;
-  font-weight: 900;
+  font-size: 20px;
+  font-weight: 100;
 }
 
 .cardFaq:hover {
   border-radius: 15px;
   cursor: pointer;
   transform: scale(1.2);
-  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-  background-color: #3ba0d9 !important;
+  box-shadow: 0px 0px 10px 5px  #0d1128;
+  background-color: #0d1128 !important;
 }
 
 .faq1-content {
@@ -3670,4 +3664,177 @@ textarea.form-control {
 .faqFix{
   justify-content: center;
   gap: 10px;
+}
+
+/* home button */
+.btn2 {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #fefefe;
+  text-transform: uppercase;
+  color: #fefefe;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.btn2::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - -2px);
+  background-color: #212121;
+  transition: 0.3s ease-out;
+  transform: scaleY(1);
+}
+
+.btn2::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 50px);
+  background-color: #212121;
+  transition: 0.3s ease-out;
+  transform: scaleY(1);
+}
+
+.btn2:hover::before {
+  transform: translateY(-25px);
+  height: 0;
+}
+
+.btn2:hover::after {
+  transform: scaleX(0);
+  transition-delay: 0.15s;
+}
+
+.btn2:hover {
+  border: 2px solid #fefefe;
+}
+
+.btn2 span {
+  position: relative;
+  z-index: 3;
+}
+
+.homeBack{
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+}
+/* login/signup */
+
+
+.form-box {
+  margin-top: 100px;
+  max-width: 300px;
+  background: #f1f7fe;
+  overflow: hidden;
+  border-radius: 16px;
+  color: #010101;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+
+/*Form text*/
+.title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+
+/*Inputs box*/
+.form-container {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 1rem 0 .5rem;
+  width: 100%;
+}
+
+.input {
+  background: none;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  font-size: .9rem;
+  padding: 8px 15px;
+}
+
+.form-section {
+  padding: 16px;
+  font-size: .85rem;
+  background-color: #e0ecfb;
+  box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+}
+
+.form-section a {
+  font-weight: bold;
+  color: #0066ff;
+  transition: color .3s ease;
+}
+
+.form-section a:hover {
+  color: #005ce6;
+  text-decoration: underline;
+}
+
+/*Button*/
+.form button {
+  background-color: #0066ff;
+  color: #fff;
+  border: 0;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.form button:hover {
+  background-color: #005ce6;
+}
+.login{
+  
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0ecfb;
+  
+  
+}
+.bg-color{
+  background-color: #e0ecfb;
+
+}
+
+.bg-color-fix:hover{
+  background-color: #0d1128 !important;
+}
+.icon-quote-left{
+  color:#0d1128 ;
+  background-color: #0d1128;
 }
