@@ -3732,7 +3732,71 @@ textarea.form-control {
 }
 /* login/signup */
 
+.button-closed {
+  position: relative;
+  width: 5em;
+  height: 3em;
+  border: none;
+  background: none;
+}
 
+.X {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  width: 2em;
+  height: 1.5px;
+  background-color: #b6a7a7;
+  transform: rotate(45deg);
+}
+
+.Y {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  width: 2em;
+  height: 1.5px;
+  background-color: #9b9696;
+  transform: rotate(-45deg);
+}
+
+.close {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -40%;
+  left: 70%;
+  width: 3em;
+  height: 1.7em;
+  font-size: 16px;
+  background-color: rgb(254, 255, 225);
+  color: #000;
+  border: 1px solid #000;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.button-closed:hover {
+  background-color: #0d1128;
+  border-radius:10px;
+}
+
+.button-closed:active {
+  background-color: rgb(130, 0, 0);
+}
+
+.button-closed:hover > .close {
+  animation: close 0.2s forwards 1.25s;
+}
+
+@keyframes close {
+  100% {
+    opacity: 1;
+  }
+}
 .form-box {
   margin-top: 100px;
   max-width: 300px;
@@ -3918,4 +3982,57 @@ textarea.form-control {
   top: -45%;
   background-color: #009087;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+/* pop up */
+
+.custom-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: #0d1128 !important;
+  z-index: 999;
+}
+
+.custom-popup-content {
+  background-color: white;
+  width: 500px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-close {
+  border: 1px solid #000;
+  text-align: center;
+  width: 50px;
+  float: right;
+  cursor: pointer;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+form p {
+  margin-top: 15px;
 }
