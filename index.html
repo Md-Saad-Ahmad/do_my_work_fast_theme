@@ -29,15 +29,10 @@
     nonce="b1638c05-4de2-47f2-82ee-2a071840e5ac">(function (w, d) { !function (bg, bh, bi, bj) { bg[bi] = bg[bi] || {}; bg[bi].executed = []; bg.zaraz = { deferred: [], listeners: [] }; bg.zaraz.q = []; bg.zaraz._f = function (bk) { return function () { var bl = Array.prototype.slice.call(arguments); bg.zaraz.q.push({ m: bk, a: bl }) } }; for (const bm of ["track", "set", "debug"]) bg.zaraz[bm] = bg.zaraz._f(bm); bg.zaraz.init = () => { var bn = bh.getElementsByTagName(bj)[0], bo = bh.createElement(bj), bp = bh.getElementsByTagName("title")[0]; bp && (bg[bi].t = bh.getElementsByTagName("title")[0].text); bg[bi].x = Math.random(); bg[bi].w = bg.screen.width; bg[bi].h = bg.screen.height; bg[bi].j = bg.innerHeight; bg[bi].e = bg.innerWidth; bg[bi].l = bg.location.href; bg[bi].r = bh.referrer; bg[bi].k = bg.screen.colorDepth; bg[bi].n = bh.characterSet; bg[bi].o = (new Date).getTimezoneOffset(); if (bg.dataLayer) for (const bt of Object.entries(Object.entries(dataLayer).reduce(((bu, bv) => ({ ...bu[1], ...bv[1] }))))) zaraz.set(bt[0], bt[1], { scope: "page" }); bg[bi].q = []; for (; bg.zaraz.q.length;) { const bw = bg.zaraz.q.shift(); bg[bi].q.push(bw) } bo.defer = !0; for (const bx of [localStorage, sessionStorage]) Object.keys(bx || {}).filter((bz => bz.startsWith("_zaraz_"))).forEach((by => { try { bg[bi]["z_" + by.slice(7)] = JSON.parse(bx.getItem(by)) } catch { bg[bi]["z_" + by.slice(7)] = bx.getItem(by) } })); bo.referrerPolicy = "origin"; bo.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(bg[bi]))); bn.parentNode.insertBefore(bo, bn) };["complete", "interactive"].includes(bh.readyState) ? zaraz.init() : bg.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
 </head>
 <style>
-  body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-  }
   #chat-container {
       position: fixed;
       bottom: 20px;
-      left: 20px;
+      left: 50px;
       background-color: #fff;
       border: 1px solid #ddd;
       border-radius: 10px;
@@ -83,7 +78,16 @@
 
 <body>
   <!-- <button id="chat-toggle">Chat</button> -->
+  <div class="chatcount">
 
+    <button id="chat-toggle" class="set-chatBtn">
+      <svg height="1.6em" fill="white" xml:space="preserve" viewBox="0 0 1000 1000" y="0px" x="0px" version="1.1">
+        <path d="M881.1,720.5H434.7L173.3,941V720.5h-54.4C58.8,720.5,10,671.1,10,610.2v-441C10,108.4,58.8,59,118.9,59h762.2C941.2,59,990,108.4,990,169.3v441C990,671.1,941.2,720.5,881.1,720.5L881.1,720.5z M935.6,169.3c0-30.4-24.4-55.2-54.5-55.2H118.9c-30.1,0-54.5,24.7-54.5,55.2v441c0,30.4,24.4,55.1,54.5,55.1h54.4h54.4v110.3l163.3-110.2H500h381.1c30.1,0,54.5-24.7,54.5-55.1V169.3L935.6,169.3z M717.8,444.8c-30.1,0-54.4-24.7-54.4-55.1c0-30.4,24.3-55.2,54.4-55.2c30.1,0,54.5,24.7,54.5,55.2C772.2,420.2,747.8,444.8,717.8,444.8L717.8,444.8z M500,444.8c-30.1,0-54.4-24.7-54.4-55.1c0-30.4,24.3-55.2,54.4-55.2c30.1,0,54.4,24.7,54.4,55.2C554.4,420.2,530.1,444.8,500,444.8L500,444.8z M282.2,444.8c-30.1,0-54.5-24.7-54.5-55.1c0-30.4,24.4-55.2,54.5-55.2c30.1,0,54.4,24.7,54.4,55.2C336.7,420.2,312.3,444.8,282.2,444.8L282.2,444.8z"></path>
+      </svg>
+      <span class="set-tooltip">Chat</span>
+    </button>
+  </div>
+  
 <div id="chat-container">
     <div id="chat-header">Customer Support</div>
     <div id="chat-messages"></div>
@@ -199,7 +203,7 @@
           <li class="nav-item"><a href="project.html" class="nav-link">Projects</a></li>
 
           <li class="nav-item dropdown" id="myDropdown">
-            <a class="nav-link dropdown-toggle" href="services2.html" data-bs-toggle="dropdown"> Services </a>
+            <a class="nav-link dropdown-toggle" href="services.html" data-bs-toggle="dropdown"> Services </a>
             <ul class="dropdown-menu">
               <li> <a class="dropdown-item" href="#"> WRITING &raquo; </a>
                 <ul class="submenu dropdown-menu">
@@ -281,9 +285,9 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-md-7 ftco-animate">
-            <span class="subheading high-lite">Welcome to DoMyAssignmentFast</span>
+            <span class="subheading high-lite">Welcome to Do My Work Fast</span>
             <h1 class="mb-4 high-lite">We Are The Best Consulting Agency</h1>
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3"><button id="chat-toggle">Chat</button></a></p>
+            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Lorem.</a></p>
           </div>
         </div>
       </div>
@@ -1172,6 +1176,27 @@
 
 
   <br>
+<!-- why us-->
+<div class="why-us-main">
+  <div class="why-us-head">
+    <h1>Why Us</h1>
+    <div class="why-us-pera">
+      <p>
+        At <b>Do My Work Fast</b>, we understand the challenges students face when it comes to completing assignments on time and to a high standard. That's why we're dedicated to providing top-notch academic assistance that goes above and beyond expectations.
+        With a team of seasoned experts in various fields, a commitment to quality, and a customer-centric approach, we stand out as your trusted partner in academic success. Here's why students across the globe choose us
+      </p>
+    </div>
+    <div class="why-us-btn">
+      <button>Read More</button>
+    </div>
+  </div>
+</div>
+
+
+  <br>
+
+
+
   <footer class="ftco-footer ftco-bg-dark ftco-section">
     <div class="container">
       <div class="row mb-5">

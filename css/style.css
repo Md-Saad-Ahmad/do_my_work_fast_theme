@@ -564,6 +564,30 @@ textarea.form-control {
 .form-group {
   margin-bottom: 1rem; }
 
+
+/* carousel changes */
+/* Override Bootstrap Carousel slide direction */
+.carousel-item-next.carousel-item-left,
+.active.carousel-item-right {
+  transform: translateX(100%) !important;
+}
+
+.carousel-item-prev.carousel-item-right,
+.active.carousel-item-left {
+  transform: translateX(-100%) !important;
+}
+
+.carousel-item-next,
+.active.carousel-item {
+  transform: translateX(0) !important;
+}
+
+/* Adjust transition duration if needed */
+.carousel-inner {
+  transition: transform 0.6s ease-in-out !important;
+}
+
+/* carousel changes end here */
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -4035,4 +4059,68 @@ form button:hover {
 
 form p {
   margin-top: 15px;
+}
+
+
+
+/* chatbtn */
+.set-chatBtn {
+  cursor: pointer !important;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+  background-color: #0d1128;
+  background-image: linear-gradient(147deg, #0056b3, #0d1128,#ffffff);
+  cursor: pointer;
+  padding-top: 3px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+  position: relative;
+  background-size: 300%;
+  background-position: left;
+  transition-duration: 1s;
+  border: none !important;
+  z-index: 999999 !important;
+}
+
+.set-tooltip {
+  z-index: 999999 !important;
+  position: absolute;
+  top: -40px;
+  opacity: 0;
+  background-color: rgb(255, 180, 82);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .5s;
+  pointer-events: none;
+  border: none !important;
+  letter-spacing: 0.5px;
+}
+
+.set-chatBtn:hover .set-tooltip {
+  opacity: 1;
+  transition-duration: .5s;
+  z-index: 999999 !important;
+}
+
+.set-chatBtn:hover {
+  background-position: right;
+  transition-duration: 1s;
+  cursor: pointer;
+  border: none !important;
+
+  z-index: 999999 !important;
+}
+.chatcount{
+  z-index: 999999 !important;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
