@@ -587,6 +587,29 @@ textarea.form-control {
   transition: transform 0.6s ease-in-out !important;
 }
 
+/* Define scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+}
+
+/* Define scrollbar track styles */
+::-webkit-scrollbar-track {
+  background-color: #0d1128; /* color of the scrollbar track */
+}
+
+/* Define scrollbar thumb styles */
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff; /* color of the scrollbar thumb */
+  border-radius: 5px; /* round the corners of the thumb */
+}
+
+/* Define scrollbar corner styles (optional) */
+::-webkit-scrollbar-corner {
+  background-color: #0d1128; /* color of the scrollbar corner */
+}
+
+
+
 /* carousel changes end here */
 .btn {
   display: inline-block;
@@ -4196,4 +4219,8 @@ form p {
   column-gap: 10px;
   justify-content: center;
   margin: 50px 0 50px 0;
+}
+
+.bd-none{
+  border-radius: 0px !important;
 }
