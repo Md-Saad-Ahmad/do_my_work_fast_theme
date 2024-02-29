@@ -3620,8 +3620,11 @@ textarea.form-control {
  */
 
  /* faq*/
-
+.margin-botom{
+  margin: 50px;
+}
  .cardFaq {
+  overflow: hidden;
   width: 390px;
   height: 254px;
   background-color: #0d1128 !important;
@@ -4123,4 +4126,74 @@ form p {
   position: fixed;
   bottom: 0;
   left: 0;
+}
+/* ended */
+
+
+/* why us section started */
+
+.why-us-main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+}
+.why-button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #3d3a4e;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.why-button:hover::before {
+  transform: scaleX(1);
+}
+
+.why-button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.why-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  transition: all 0.475s;
+}
+.why-us-pera{
+  color: #000000;
+  font-weight: 400;
+}
+
+
+
+
+/* why us html */
+
+
+
+.why-us-flex{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 10px;
+  justify-content: center;
+  margin: 50px 0 50px 0;
 }
