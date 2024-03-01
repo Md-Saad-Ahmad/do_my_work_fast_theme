@@ -29,50 +29,51 @@
     nonce="b1638c05-4de2-47f2-82ee-2a071840e5ac">(function (w, d) { !function (bg, bh, bi, bj) { bg[bi] = bg[bi] || {}; bg[bi].executed = []; bg.zaraz = { deferred: [], listeners: [] }; bg.zaraz.q = []; bg.zaraz._f = function (bk) { return function () { var bl = Array.prototype.slice.call(arguments); bg.zaraz.q.push({ m: bk, a: bl }) } }; for (const bm of ["track", "set", "debug"]) bg.zaraz[bm] = bg.zaraz._f(bm); bg.zaraz.init = () => { var bn = bh.getElementsByTagName(bj)[0], bo = bh.createElement(bj), bp = bh.getElementsByTagName("title")[0]; bp && (bg[bi].t = bh.getElementsByTagName("title")[0].text); bg[bi].x = Math.random(); bg[bi].w = bg.screen.width; bg[bi].h = bg.screen.height; bg[bi].j = bg.innerHeight; bg[bi].e = bg.innerWidth; bg[bi].l = bg.location.href; bg[bi].r = bh.referrer; bg[bi].k = bg.screen.colorDepth; bg[bi].n = bh.characterSet; bg[bi].o = (new Date).getTimezoneOffset(); if (bg.dataLayer) for (const bt of Object.entries(Object.entries(dataLayer).reduce(((bu, bv) => ({ ...bu[1], ...bv[1] }))))) zaraz.set(bt[0], bt[1], { scope: "page" }); bg[bi].q = []; for (; bg.zaraz.q.length;) { const bw = bg.zaraz.q.shift(); bg[bi].q.push(bw) } bo.defer = !0; for (const bx of [localStorage, sessionStorage]) Object.keys(bx || {}).filter((bz => bz.startsWith("_zaraz_"))).forEach((by => { try { bg[bi]["z_" + by.slice(7)] = JSON.parse(bx.getItem(by)) } catch { bg[bi]["z_" + by.slice(7)] = bx.getItem(by) } })); bo.referrerPolicy = "origin"; bo.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(bg[bi]))); bn.parentNode.insertBefore(bo, bn) };["complete", "interactive"].includes(bh.readyState) ? zaraz.init() : bg.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
 </head>
 <style>
+  /* Your CSS styles here */
   #chat-container {
-      position: fixed;
-      bottom: 20px;
-      left: 50px;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      max-width: 300px;
-      width: 100%;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: none;
   }
   #chat-container.open {
-      display: block;
-      z-index: 999;
+    display: block;
+    z-index: 999;
   }
   #chat-header {
-      background-color: #007bff;
-      color: #fff;
-      padding: 10px;
-      border-radius: 10px 10px 0 0;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
   }
   #chat-messages {
-      padding: 10px;
-      max-height: 200px;
-      overflow-y: auto;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
   }
   #user-input {
-      width: calc(100% - 60px);
-      padding: 8px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      margin-right: 5px;
+    width: calc(100% - 60px);
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 5px;
   }
   #send-btn {
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      padding: 8px 15px;
-      cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
   }
   #send-btn:hover {
-      background-color: #0056b3;
+    background-color: #0056b3;
   }
 </style>
 
@@ -88,7 +89,7 @@
     </button>
   </div>
   
-<div id="chat-container">
+  <div id="chat-container">
     <div id="chat-header">Customer Support</div>
     <div id="chat-messages"></div>
     <div style="display: flex; align-items: center; padding: 10px;">
@@ -96,12 +97,26 @@
         <button id="send-btn">Send</button>
     </div>
 </div>
+
 <script> const chatToggle = document.getElementById('chat-toggle');
   const chatContainer = document.getElementById('chat-container');
   const sendBtn = document.getElementById('send-btn');
   const userInput = document.getElementById('user-input');
   const chatMessages = document.getElementById('chat-messages');
 
+  window.onload = function() {
+    chatContainer.classList.add('open');
+    setTimeout(function() {
+        chatContainer.classList.remove('open');
+    }, 3000); 
+};
+
+
+function appendMessage(sender, message) {
+    const messageElement = document.createElement('div');
+    messageElement.innerHTML = `<strong>${sender}:</strong> ${message}`;
+    chatMessages.appendChild(messageElement);
+}
   chatToggle.addEventListener('click', function() {
       chatContainer.classList.toggle('open');
   });
@@ -287,7 +302,7 @@
           <div class="col-md-7 ftco-animate">
             <span class="subheading high-lite">Welcome to Do My Work Fast</span>
             <h1 class="mb-4 high-lite">We Are The Best Consulting Agency</h1>
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Lorem.</a></p>
+            <!-- <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Lorem.</a></p> -->
           </div>
         </div>
       </div>
