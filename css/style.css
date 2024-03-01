@@ -4033,6 +4033,14 @@ textarea.form-control {
   background-color: #009087;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
+@media only screen and (max-width: 600px) {
+  .button2{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
 /* pop up */
 
 .custom-popup {
@@ -4224,3 +4232,14 @@ form p {
 .bd-none{
   border-radius: 0px !important;
 }
+
+/* verify icons */
+/* .verify-icons{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.icon-text{
+  text-align: center;
+  margin-top: 10px;
+} */
